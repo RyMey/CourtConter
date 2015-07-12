@@ -1,8 +1,9 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -32,7 +33,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="24dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000"
                 android:textSize="56sp"/>
 
@@ -43,7 +44,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreePointForTeamA"
-                android:text="+3 Points"/>
+                android:text="@string/three_points"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -52,7 +53,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoPointForTeamA"
-                android:text="+2 Points"/>
+                android:text="@string/two_points"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -61,7 +62,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOnePointForTeamA"
-                android:text="Free Throw"/>
+                android:text="@string/free_throw"/>
 
         </LinearLayout>
 
@@ -83,7 +84,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Team B"
+                android:text="@string/team_b"
                 android:textColor="#616161"
                 android:textSize="14sp"/>
 
@@ -94,7 +95,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="24dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="#000"
                 android:textSize="56sp"/>
 
@@ -105,7 +106,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreePointForTeamB"
-                android:text="+3 Points"/>
+                android:text="@string/three_points"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -114,7 +115,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoPointForTeamB"
-                android:text="+2 Points"/>
+                android:text="@string/two_points"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -123,7 +124,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOnePointForTeamB"
-                android:text="Free Throw"/>
+                android:text="@string/free_throw"/>
 
         </LinearLayout>
 
@@ -138,6 +139,6 @@
         android:layout_marginLeft="22dp"
         android:layout_marginRight="22dp"
         android:onClick="resetScore"
-        android:text="Reset"/>
+        android:text="@string/reset"/>
 
 </RelativeLayout>
