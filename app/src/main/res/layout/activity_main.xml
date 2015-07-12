@@ -23,7 +23,7 @@
                 android:padding="16dp"
                 android:text="Team A"
                 android:textColor="#616161"
-                android:textSize="14dp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -34,7 +34,7 @@
                 android:padding="24dp"
                 android:text="0"
                 android:textColor="#000"
-                android:textSize="56dp"/>
+                android:textSize="56sp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -85,7 +85,7 @@
                 android:padding="16dp"
                 android:text="Team B"
                 android:textColor="#616161"
-                android:textSize="14dp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -96,7 +96,7 @@
                 android:padding="24dp"
                 android:text="0"
                 android:textColor="#000"
-                android:textSize="56dp"/>
+                android:textSize="56sp"/>
 
             <Button
                 android:layout_width="match_parent"
