@@ -1,7 +1,6 @@
 package id.zelory.courtconter;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -115,6 +114,7 @@ public class MainActivity extends AppCompatActivity
 
     /**
      * Reset the score from team A and team B
+     *
      * @param view
      */
     public void resetScore(View view)
